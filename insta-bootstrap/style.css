@@ -1,0 +1,48 @@
+.resize{
+    resize:none;
+}
+
+.cabeza{
+    font-weight: bolder;     
+    font-size: large;     
+    font-family:Lucida Handwriting, cursive;     
+    font-style: oblique;
+}
+
+.nav-link {
+    color:grey;
+    background-color: grey;
+}
+
+.nav-link:hover {
+    color:white;
+    background-color: grey;
+}
+
+.nav-link.active {
+    color:white;
+    background-color: grey;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background: grey;
+}
+
+.object-fit-fill {
+    width: 400px;  
+    height: 400px;  
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.object-fit-fill1 {
+    width: 600px; 
+    margin: 50px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+body{
+    background-color: #e9e9e9fb;
+}
