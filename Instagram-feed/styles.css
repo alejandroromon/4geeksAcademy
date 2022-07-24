@@ -1,0 +1,41 @@
+header{ background-color: white;
+}
+
+body{background-color: 
+    whitesmoke;
+}
+
+h1 {    
+    background: white;
+    display:flex;
+    align-self: center;
+    justify-content: center;
+}
+
+div{ 
+color:black;
+display:flex;
+flex-direction: column;
+max-width: 400px;
+max-height: 400px;
+background-color: white;
+margin-bottom: 10px;
+}
+
+.cabezafoto {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+img{
+display:flex;
+align-self: center;
+justify-content: center;
+max-width: 400px;
+max-height: 400px;
+}
+
+#centrar {display: flex;
+margin: 0 auto;
+margin-bottom: 30px;}
