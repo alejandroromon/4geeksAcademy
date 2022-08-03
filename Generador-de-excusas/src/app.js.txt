@@ -1,0 +1,45 @@
+/* eslint-disable */
+import "bootstrap";
+import "./style.css";
+
+import "./assets/img/rigo-baby.jpg";
+import "./assets/img/4geeks.ico";
+
+window.onload = function() {
+  //write your code here
+  console.log("Hello Rigo from the console!");
+};
+
+let who = ["The dog", "My grandma", "His turtle", "My bird"];
+let action = ["ate", "peed", "crushed", "broke"];
+let what = ["my homework", "the keys", "the car"];
+let when = [
+  "before the class",
+  "right on time",
+  "when I finished",
+  "during my lunch",
+  "while I was praying"
+];
+
+let excusa = "";
+
+function excuse() {
+  let random = function(arr) {
+    return Math.floor(Math.random() * arr.length);
+  };
+
+  let quien = who[random(who)];
+  let accion = action[random(action)];
+  let que = what[random(what)];
+  let cuando = when[random(when)];
+
+  excusa = `${quien} ${accion} ${que} ${cuando}`;
+
+  return excusa;
+}
+
+window.onload = function() {
+  console.log(excusa);
+  excusa = document.getElementById("excuse");
+  excusa.innerHTML = excuse();
+};
