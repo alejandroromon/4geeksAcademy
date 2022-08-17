@@ -1,0 +1,49 @@
+.caja {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    width: 100px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.verde {
+    background: green;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 3px solid white;
+}
+
+.amarillo {
+    background: yellow;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 3px solid white;
+}
+
+.rojo {
+    background: red;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 3px solid white;
+}
+
+.brillo{
+    box-shadow: 0px 0px 48px 29px rgba(217,210,80,0.7);
+}
+
+.morado{
+    background: purple;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 3px solid white;
+}
