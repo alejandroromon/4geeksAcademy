@@ -36,7 +36,7 @@ export const Navbar = () => {
                   id="navbarDarkDropdownMenuLink"
                   aria-labelledby="navbarDarkDropdownMenuLink"
                 >
-                  {store.favorites == false ? <li>no hay favoritos.</li> : ""}
+                  {store.favorites == false ? <li>No hay favoritos.</li> : ""}
                   {store.favorites.map((fav, i) => (
                     <div className="row ">
                       <div className="col-10 d-inline-block">
@@ -45,7 +45,7 @@ export const Navbar = () => {
                       </div>
                       <div className="col-2 d-inline-block">
                         <i
-                          className="fa fa-heartbeat botonBorrarFav mt-2 my-auto"
+                          className="fa fa-times botonBorrarFav mt-2 my-auto"
                           onClick={() => actions.eraseFavorites(fav)}
                           aria-hidden="true"
                         ></i>
