@@ -79,8 +79,6 @@ def delete_favorite_people(people_id):
     return jsonify(people_id)
 
 
-
-
 # this only runs if `$ python src/main.py` is executed
 if __name__ == '__main__':
     PORT = int(os.environ.get('PORT', 3000))
